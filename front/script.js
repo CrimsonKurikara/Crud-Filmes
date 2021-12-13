@@ -21,7 +21,6 @@ const getAll = async () => {
                   <p class="card-text h3">${film.name}</p>
                   <p class="card-text h4">${film.genre}</p>
                   <p class="card-text h4">Nota: ${film.score}</p>
-                  ${film.watched ? '<p class="card-text h4"> Status: Assistido</p>' : `<button class="btn btn-info p-2" onclick="watched(${film.id})">Assistido</button>`}
               </div>  
             <div class="text-center m-2 p-2">
               <button class="btn btn-success py-2 px-3" onclick="modify(${film.id})">Editar</button>
